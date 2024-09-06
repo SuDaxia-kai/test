@@ -3,7 +3,7 @@ title: Home
 layout: minimal
 ---
 
-# SDM5008 Advanced Robotics Control
+# SDM5008 Advanced Control for Robotics
 
 ## What is this course about?
 
@@ -18,7 +18,7 @@ layout: minimal
 ## Course Information
 
 - **Course ID**: SDM5008
-- **Course Name**: Advanced Robotics Control
+- **Course Name**: Advanced Control for Robotics
 - **Credit**: 3.0
 - **Credit Hours**: 48.0
 - **Classroom**: Classroom 524, Teaching Building One
@@ -98,3 +98,23 @@ layout: minimal
 - https://spinningup.openai.com/en/latest/
 - https://rail.eecs.berkeley.edu/deeprlcourse/
 - Lecture notes, and papers distributed in class
+
+# # FALL 2024
+
+You can find all of the notes and homeworks for the FALL 2024 SDM5088 course, updated continuously as the course progresses.
+
+<!-- ## Notes
+
+- [LN1 Linear Algebra Review](https://github.com/clearlab-sustech/SDM366-Sp24/raw/master/assets/files/LN1_LinearAlgebraReview.pdf)
+
+## Notes(handwriting)
+
+- [LN2](https://github.com/clearlab-sustech/SDM366-Sp24/raw/master/assets/files/LN2_handwriting.pdf)
+
+## Homeworks
+
+- [HW1](https://github.com/clearlab-sustech/SDM366-Sp24/raw/master/assets/files/SDM_Optimal_Control_and_Estimation_HW1.pdf)
+
+## Tutorials (Video Capture)
+
+- [Lec 1: 控制与机器学习的线性代数基础](https://www.bilibili.com/video/BV16v421r7bU/?spm_id_from=333.788) -->
