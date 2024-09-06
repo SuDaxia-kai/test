@@ -99,7 +99,7 @@ layout: minimal
 - https://rail.eecs.berkeley.edu/deeprlcourse/
 - Lecture notes, and papers distributed in class
 
-# # FALL 2024
+# FALL 2024
 
 You can find all of the notes and homeworks for the FALL 2024 SDM5088 course, updated continuously as the course progresses.
 
