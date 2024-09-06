@@ -3,33 +3,98 @@ title: Home
 layout: minimal
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# SDM5008 Advanced Robotics Control
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+## What is this course about?
 
-More specifically, the created site:
-
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
-
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
-
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
-
-To get started with creating a site, simply:
-
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
-
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+- Develop a solid foundation in robot modeling, control and learning to conduct cutting edge research in robotics
+  - **Math**: Probability, optimization, stochastic systems
+  - **Modeling**: Advanced rigid body kinematics and dynamics
+  - **Control**: Differential IK, Model predictive control
+  - **Learning**: MDP, Deep Reinforcement learning
 
 ----
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+## Course Information
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+- **Course ID**: SDM5008
+- **Course Name**: Advanced Robotics Control
+- **Credit**: 3.0
+- **Credit Hours**: 48.0
+- **Classroom**: Classroom 524, Teaching Building One
+- **Time**: Week 1-16, Wednesday 19:00 pm - 22:00 pm;
+- **Teacher**: Wei Zhang(zhangw3@sustech.edu.cn)
+- **TA**: Haokai Su(12433009@mail.sustech.edu.cn), Zhiyi Gao
+
+----
+
+## Links
+
+- [Clear-Lab](https://www.wzhanglab.site)
+- [Course site](https://clearlab-sustech.github.io/ARC2024)
+- [Bilibili](https://space.bilibili.com/474380277)
+
+----
+
+## Target Students  
+
+- PhD students in robotics with a strong need of advanced control
+- Master students in control and robotics with a strong desire to pursue PhD degree
+- Students who can devote **substantial time** to read and learn outside classroom
+
+----
+
+## Tentative Outline
+
+1. **Advanced Kinematics and Dynamics**
+   1. Rigid body configuration and velocity
+   2. Exponential coordinate of rigid body motion
+   3. Kinematics of open chain
+   4. Velocity Kinematics
+
+2. **Basic Robot Control**
+   1. Basics of optimization
+   2. Differential IK
+   3. Introductory optimal control
+   4. Model Predictive Control
+
+3. **Reinforcement learning**
+   1. Probability review
+   2. Markov Decision Process
+   3. Basics of Neural Networks
+   4. Value estimation via sampling
+   5. Introduction to Policy gradient
+   6. Policy gradient with baseline
+   7. Advanced policy gradient
+
+4. **Advanced topics (if time permits)**
+   1. **Transformer**
+   2. **robot dynamics**
+
+## Prerequisite
+
+- Introduction to robotics
+  - Solid background in rigid body kinematics and dynamics in the level described in standard beginner textbooks, such as:
+    - “Introduction to Robotics: Mechanics and Control”, J. Craig
+    - “Robot Modeling and Control”, M. Spong, S. Hutchinton, and M. Vidyasagar
+- Undergraduate class in control
+- Maturity in math, solid understanding in linear algebra (see tutorial notes in linear algebra), good at abstract reasoning
+- Programming skills: **Python**
+
+## Background Reading
+
+- “Linear Algebra Review and Reference”, Zico Kolter
+- “The Matrix Cook Book” - Kaare Brandt Petersen, Michael Syskind Pedersen
+- [Linear algebra](https://www.bilibili.com/video/BV1eA411F7RX/)
+- [Matrix exponential](https://www.bilibili.com/video/BV1Ab411d7vi/)
+
+## Reference
+
+- [“Mathematical introduction to robotic manipulation”, R. Murray, Z. Li, S. Sastry](https://www.cds.caltech.edu/~murray/books/MLS/pdf/mls94-complete.pdf)
+- ["Modern Robotics: Mechanics, Planning, and Control", Kevin M. Lynch and Frank C. Park, Cambridge University Press, 2017, ISBN 9781107156302](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
+- [“Rigid Body Dynamics Algorithms”, Roy Featherston](https://www.springer.com/gp/book/9780387743141)
+- “Predictive Control for Linear and Hybrid Systems”, F. Borrelli, A. Bemporad, M. Morari, Cambridge University Press , July, 2017
+- http://www.mpc.berkeley.edu/mpc-course-material 
+- https://spinningup.openai.com/en/latest/
+- https://rail.eecs.berkeley.edu/deeprlcourse/
+- Lecture notes, and papers distributed in class
