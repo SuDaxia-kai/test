@@ -4,7 +4,9 @@ theme: just-the-docs
 
 url: https://SuDaxia-kai.github.io/test
 
-logo: "/assets/images/assets/images/cropped-logo-green-03.png"
+logo: "/assets/images/cropped-logo-green-03.png"
+
+favicon_ico: "/assets/images/20240906-152343.ico"
 
 aux_links:
   CLEAR_LAB: https://space.bilibili.com/474380277?spm_id_from=333.337.0.0
