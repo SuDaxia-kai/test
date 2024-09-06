@@ -3,7 +3,7 @@ title: Home
 layout: minimal
 ---
 
-![CLEARLAB Logo](/assets/images/cropped-logo-green-03.png)
+![](/assets/images/cropped-logo-green-03.png)
 
 # SDM5008 Advanced Control for Robotics
 
